@@ -1,0 +1,20 @@
+{
+  "name": "amazona",
+  "version": "1.0.0",
+  "description": "#Lessons 1.Introduction 2.Install Tools 3.Create React App 4.Create Git Repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiyokomorita/amazona.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiyokomorita/amazona/issues"
+  },
+  "homepage": "https://github.com/kiyokomorita/amazona#readme"
+}
