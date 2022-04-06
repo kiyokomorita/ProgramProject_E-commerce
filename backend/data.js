@@ -1,7 +1,22 @@
+import bcrypt from 'bcryptjs';
 const data = {
+  users: [
+    {
+      name: 'Kiyoko',
+      email: 'admin@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: true,
+    },
+    {
+      name: 'John',
+      email: 'user@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: false,
+    },
+  ],
   products: [
     {
-      _id: '1',
+      // _id: '1',
       name: 'Ramie Midi Dress',
       slug: 'ramie-midi-dress',
       category: 'Dress',
@@ -14,7 +29,7 @@ const data = {
       description: 'hight quality product',
     },
     {
-      _id: '2',
+      // _id: '2',
       name: 'Pleated Maxi Dress',
       slug: 'pleated-maxi-dress',
       category: 'Dress',
@@ -27,7 +42,7 @@ const data = {
       description: 'high quality dress',
     },
     {
-      _id: '3',
+      // _id: '3',
       name: 'Straight Ankle Jean',
       slug: 'straight-ankle-jean',
       category: 'Pants',
@@ -40,7 +55,7 @@ const data = {
       description: 'high quality product',
     },
     {
-      _id: '4',
+      // _id: '4',
       name: 'Wide-Leg Crop Jean',
       slug: 'wide-leg-crop-jean',
       category: 'Pants',
